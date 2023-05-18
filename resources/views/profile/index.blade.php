@@ -221,7 +221,9 @@
     </div>
   </div>
 
-        <script src="{{asset('assets/js/paragraphs.js')}}"></script>
+
+ 
+
         <script src="{{asset('assets/js/script2.js')}}"></script>
     </body>
 </html>

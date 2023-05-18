@@ -69,14 +69,17 @@
                             <a class="dropdown-item" href="?lang=ru"
                             data-language="ru"><i class="flag-icon flag-icon-ru"></i> Russian</a>
                         </div>
-
-
-                        
-                
-
-                        
+             
                     </x-slot>
+
+                  
                 </x-dropdown>
+                     <div class="langs">
+                        <a class="btn btn-primary" href="{{route('dash_uz')}}">Uzbek</a>
+                        <a class="btn btn-primary" href="{{route('dash_ru')}}">Russian</a>
+                        <a class="btn btn-primary" href="{{route('dashboard')}}">English</a>
+                    </div>
+
                 <x-dropdown align="right" width="48">
 
                 

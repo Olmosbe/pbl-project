@@ -38,6 +38,10 @@ Route::get('/dashuz', function () {
     return view('dashUz');
 })->middleware(['auth', 'verified'])->name('dash_uz');
 
+Route::get('/dashru', function () {
+    return view('dashRu');
+})->middleware(['auth', 'verified'])->name('dash_ru');
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

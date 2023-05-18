@@ -64,7 +64,9 @@
             </main>
         </div>
 
-        <script src="{{asset('assets/js/paraUz.js')}}"></script>
+
+    @yield('scripts')
+        <!-- <script src="{{asset('assets/js/paraUz.js')}}"></script> -->
         <!-- <script src="{{asset('assets/js/paragraphs.js')}}"></script> -->
         <script src="{{asset('assets/js/script2.js')}}"></script>
     </body>

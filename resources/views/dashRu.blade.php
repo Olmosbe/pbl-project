@@ -50,9 +50,11 @@
         </div>
     </div>
     @section('scripts')
-           <script src="{{asset('assets/js/paragraphs.js')}}"></script>
-     @endsection
+    <script src="{{asset('assets/js/paraRu.js')}}"></script>
+    @endsection
 </x-app-layout>
  
+
+
 
 

@@ -49,6 +49,12 @@
             </div>
         </div>
     </div>
+    @section('scripts')
+    <script src="{{asset('assets/js/paraUz.js')}}"></script>
+    @endsection
 </x-app-layout>
  
+
+
+
 
